@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup><Compile Include="../host/CoreRules.cs" Link="CoreRules.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../host/World/Clip.cs" Link="Clip.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../host/CheckpointFiles.cs" Link="CheckpointFiles.cs" /></ItemGroup>
+</Project>

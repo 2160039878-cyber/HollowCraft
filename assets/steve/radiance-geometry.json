@@ -1,0 +1,924 @@
+{
+  "schema": 1,
+  "collection": "Radiance Cln",
+  "clips": {
+    "Knight Ball": {
+      "fps": 12.0,
+      "frames": [
+        129,
+        168,
+        233,
+        141
+      ]
+    },
+    "Knight Split": {
+      "fps": 15.0,
+      "frames": [
+        281,
+        277,
+        269,
+        276
+      ]
+    },
+    "Knight Form": {
+      "fps": 12.0,
+      "frames": [
+        228,
+        139,
+        177,
+        153,
+        223,
+        163,
+        197,
+        150,
+        212,
+        203,
+        208,
+        184,
+        175,
+        217,
+        156
+      ]
+    },
+    "Knight Idle": {
+      "fps": 12.0,
+      "frames": [
+        231,
+        236,
+        136,
+        179,
+        174,
+        121,
+        120,
+        137
+      ]
+    },
+    "Slash1 Antic": {
+      "fps": 18.0,
+      "frames": [
+        176,
+        123,
+        172
+      ]
+    },
+    "Slash1": {
+      "fps": 18.0,
+      "frames": [
+        187,
+        219
+      ]
+    },
+    "Slash2 Antic": {
+      "fps": 18.0,
+      "frames": [
+        247,
+        249,
+        138
+      ]
+    },
+    "Slash2": {
+      "fps": 18.0,
+      "frames": [
+        165,
+        211
+      ]
+    },
+    "Knight Unform": {
+      "fps": 12.0,
+      "frames": [
+        197,
+        163,
+        223,
+        153,
+        177,
+        139,
+        228,
+        141,
+        233,
+        168
+      ]
+    },
+    "Knight Pull": {
+      "fps": 30.0,
+      "frames": [
+        273
+      ]
+    },
+    "Knight Hang": {
+      "fps": 12.0,
+      "frames": [
+        273,
+        284,
+        270,
+        275,
+        278,
+        282,
+        271,
+        272
+      ]
+    },
+    "Knight Split Antic": {
+      "fps": 12.0,
+      "frames": [
+        280,
+        283,
+        279,
+        274
+      ]
+    }
+  },
+  "sprites": {
+    "129": {
+      "name": "player_knight_appear000",
+      "kind": "ball",
+      "anchor": [
+        0.5095667299177735,
+        0.5567058994478349
+      ],
+      "scale": 1.0763886391937554,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "168": {
+      "name": "player_knight_appear001",
+      "kind": "ball",
+      "anchor": [
+        0.5041756465517241,
+        0.4880937288708587
+      ],
+      "scale": 1.6319444368153095,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "233": {
+      "name": "player_knight_appear002",
+      "kind": "ball",
+      "anchor": [
+        0.5061429635145197,
+        0.49710806534382485
+      ],
+      "scale": 2.0833330306534967,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "141": {
+      "name": "player_knight_appear003",
+      "kind": "ball",
+      "anchor": [
+        0.4992737914589204,
+        0.4971965741621872
+      ],
+      "scale": 1.909722283959613,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "281": {
+      "name": "hollow_knight_break_apart_v020012",
+      "kind": "skin",
+      "anchor": [
+        0.6008064782141214,
+        0.5691964173316956
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": [
+        [
+          0.3516509496630599,
+          0.027259258479506356
+        ],
+        [
+          0.7589239242147713,
+          0.9456831249969042
+        ]
+      ],
+      "beamStyle": [
+        0.1,
+        0.4,
+        1
+      ]
+    },
+    "277": {
+      "name": "hollow_knight_break_apart_v020013",
+      "kind": "skin",
+      "anchor": [
+        0.546391759495919,
+        0.5634095529409556
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": [
+        [
+          0.33164107952693755,
+          0.019971544755734733
+        ],
+        [
+          0.7162380057580177,
+          0.9764662160508318
+        ]
+      ],
+      "beamStyle": [
+        0.07,
+        0.1,
+        0.25
+      ]
+    },
+    "269": {
+      "name": "hollow_knight_break_apart_v020014",
+      "kind": "skin",
+      "anchor": [
+        0.5110294191665898,
+        0.5893719836480336
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": [
+        [
+          0.2893816137779632,
+          0.09411407582009518
+        ],
+        [
+          0.661156801469688,
+          0.9279459742554828
+        ]
+      ],
+      "beamStyle": [
+        0.09,
+        0.4,
+        0.3
+      ]
+    },
+    "276": {
+      "name": "hollow_knight_break_apart_v020015",
+      "kind": "skin",
+      "anchor": [
+        0.5265017738986305,
+        0.5607940321702224
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": [
+        [
+          0.34148803693640417,
+          0.083436877605638
+        ],
+        [
+          0.5594730392958943,
+          0.9060210298104632
+        ]
+      ],
+      "beamStyle": [
+        0.16,
+        0.3,
+        0
+      ]
+    },
+    "228": {
+      "name": "player_knight_appear004",
+      "kind": "ball",
+      "anchor": [
+        0.4750336069053347,
+        0.4672726029538173
+      ],
+      "scale": 2.2222221589602444,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "139": {
+      "name": "player_knight_appear005",
+      "kind": "ball",
+      "anchor": [
+        0.48310892526001775,
+        0.4727208389628772
+      ],
+      "scale": 2.222222093781237,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "177": {
+      "name": "player_knight_appear006",
+      "kind": "ball",
+      "anchor": [
+        0.5487433321366002,
+        0.4471580292705967
+      ],
+      "scale": 2.256943924525926,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "153": {
+      "name": "player_knight_appear007",
+      "kind": "void",
+      "anchor": [
+        0.6316490062615929,
+        0.21677994115317475
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "223": {
+      "name": "player_knight_appear008",
+      "kind": "void",
+      "anchor": [
+        0.5753714757481785,
+        0.3558068717268579
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "163": {
+      "name": "player_knight_appear009",
+      "kind": "void",
+      "anchor": [
+        0.8470547344878653,
+        0.28381819962777943
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "197": {
+      "name": "player_knight_appear010",
+      "kind": "void",
+      "anchor": [
+        0.8108500256805342,
+        0.4400749063670412
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "150": {
+      "name": "player_knight_appear011",
+      "kind": "void",
+      "anchor": [
+        0.8365599851497582,
+        0.3994064223839587
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "212": {
+      "name": "player_knight_appear012",
+      "kind": "void",
+      "anchor": [
+        0.8303398728930644,
+        0.35738223276217196
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "203": {
+      "name": "player_knight_appear013",
+      "kind": "void",
+      "anchor": [
+        0.8318212669683258,
+        0.3276042780748663
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "208": {
+      "name": "player_knight_appear014",
+      "kind": "void",
+      "anchor": [
+        0.807969088339406,
+        0.33047214981404127
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "184": {
+      "name": "player_knight_appear015",
+      "kind": "void",
+      "anchor": [
+        0.8306184460030615,
+        0.38592529021184335
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "175": {
+      "name": "player_knight_appear016",
+      "kind": "void",
+      "anchor": [
+        0.8309800997878075,
+        0.3793602547401939
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "217": {
+      "name": "player_knight_appear017",
+      "kind": "void",
+      "anchor": [
+        0.8322177146720757,
+        0.3748353395412219
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "156": {
+      "name": "player_knight_appear018",
+      "kind": "void",
+      "anchor": [
+        0.845792775254164,
+        0.40992614780767445
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "231": {
+      "name": "player_knight_appear019",
+      "kind": "void",
+      "anchor": [
+        0.8390691700351327,
+        0.45389312683002003
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "236": {
+      "name": "player_knight_appear020",
+      "kind": "void",
+      "anchor": [
+        0.858603277653795,
+        0.4591844307155712
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "136": {
+      "name": "player_knight_appear021",
+      "kind": "void",
+      "anchor": [
+        0.852810930187319,
+        0.4619350726050641
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "179": {
+      "name": "player_knight_appear022",
+      "kind": "void",
+      "anchor": [
+        0.8474321705426356,
+        0.36216276978417267
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "174": {
+      "name": "player_knight_appear023",
+      "kind": "void",
+      "anchor": [
+        0.8412665360117589,
+        0.4284382006865488
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "121": {
+      "name": "player_knight_appear024",
+      "kind": "void",
+      "anchor": [
+        0.8588373655913978,
+        0.482250702247191
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "120": {
+      "name": "player_knight_appear025",
+      "kind": "void",
+      "anchor": [
+        0.8536983647912069,
+        0.4803530041005527
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "137": {
+      "name": "player_knight_appear026",
+      "kind": "void",
+      "anchor": [
+        0.8491858237547892,
+        0.45269833948339483
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "176": {
+      "name": "player_knight_slashes000",
+      "kind": "void",
+      "anchor": [
+        0.9041257781998523,
+        0.511112642833073
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "123": {
+      "name": "player_knight_slashes001",
+      "kind": "void",
+      "anchor": [
+        0.7097581212913608,
+        0.4493779035617024
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.9481234211476001,
+        0.6467235102510059
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "172": {
+      "name": "player_knight_slashes002",
+      "kind": "void",
+      "anchor": [
+        0.41656550669903786,
+        0.5629386508133102
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.9377031227921436,
+        0.8577916180096016
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "187": {
+      "name": "player_knight_slashes003",
+      "kind": "void",
+      "anchor": [
+        0.29097016123388997,
+        0.44411462914101435
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.7975819032761311,
+        0.4406828703703704
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "219": {
+      "name": "player_knight_slashes004",
+      "kind": "void",
+      "anchor": [
+        0.548954767092022,
+        0.5062667924312583
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.8098544973544973,
+        0.25255102040816324
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "247": {
+      "name": "player_knight_slashes007",
+      "kind": "void",
+      "anchor": [
+        0.8201253533700342,
+        0.5016530504290584
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "249": {
+      "name": "player_knight_slashes008",
+      "kind": "void",
+      "anchor": [
+        0.7051840490797545,
+        0.5043428184281843
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.9761648151218704,
+        0.40943382406797046
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "138": {
+      "name": "player_knight_slashes009",
+      "kind": "void",
+      "anchor": [
+        0.46150581444699096,
+        0.7357661350056788
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.9476586244923209,
+        0.37849129230624795
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "165": {
+      "name": "player_knight_slashes010",
+      "kind": "void",
+      "anchor": [
+        0.41372956842176656,
+        0.5420424454081437
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.9487235867103498,
+        0.7561121272068978
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "211": {
+      "name": "player_knight_slashes011",
+      "kind": "void",
+      "anchor": [
+        0.5845641025641025,
+        0.5660122699386504
+      ],
+      "scale": 1.6036394457942837,
+      "eyes": true,
+      "hand": [
+        0.7333333333333333,
+        0.8777388255915864
+      ],
+      "beam": null,
+      "beamStyle": null
+    },
+    "273": {
+      "name": "hollow_knight_break_apart_v020000",
+      "kind": "skin",
+      "anchor": [
+        0.45454545454545453,
+        0.5040650406504065
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "284": {
+      "name": "hollow_knight_break_apart_v020001",
+      "kind": "skin",
+      "anchor": [
+        0.60625,
+        0.49047619047619045
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "270": {
+      "name": "hollow_knight_break_apart_v020002",
+      "kind": "skin",
+      "anchor": [
+        0.5128205148060282,
+        0.5490195680095509
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "275": {
+      "name": "hollow_knight_break_apart_v020003",
+      "kind": "skin",
+      "anchor": [
+        0.4794520959750518,
+        0.5436893624726319
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "278": {
+      "name": "hollow_knight_break_apart_v020004",
+      "kind": "skin",
+      "anchor": [
+        0.5128205148060282,
+        0.5490195680095509
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "282": {
+      "name": "hollow_knight_break_apart_v020005",
+      "kind": "skin",
+      "anchor": [
+        0.5189873788705217,
+        0.5436893624726319
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "271": {
+      "name": "hollow_knight_break_apart_v020006",
+      "kind": "skin",
+      "anchor": [
+        0.4794520959750518,
+        0.5436893624726319
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "272": {
+      "name": "hollow_knight_break_apart_v020007",
+      "kind": "skin",
+      "anchor": [
+        0.5128205148060282,
+        0.5490195680095509
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "280": {
+      "name": "hollow_knight_break_apart_v020008",
+      "kind": "skin",
+      "anchor": [
+        0.4864864872218088,
+        0.5436893624726319
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "283": {
+      "name": "hollow_knight_break_apart_v020009",
+      "kind": "skin",
+      "anchor": [
+        0.4722222222222222,
+        0.56
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": null,
+      "beamStyle": null
+    },
+    "279": {
+      "name": "hollow_knight_break_apart_v020010",
+      "kind": "skin",
+      "anchor": [
+        0.597457654964206,
+        0.509259201280043
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": [
+        [
+          0.49046085816830726,
+          0.05025491342690524
+        ],
+        [
+          0.6807005675904724,
+          0.8405892793246676
+        ]
+      ],
+      "beamStyle": [
+        0.14,
+        0.95,
+        0
+      ]
+    },
+    "274": {
+      "name": "hollow_knight_break_apart_v020011",
+      "kind": "skin",
+      "anchor": [
+        0.6224899679249496,
+        0.5035211090302804
+      ],
+      "scale": 0.711805580271027,
+      "eyes": false,
+      "hand": null,
+      "beam": [
+        [
+          0.49010396618257596,
+          0.024619056355174352
+        ],
+        [
+          0.7326775272162864,
+          0.9567803426623206
+        ]
+      ],
+      "beamStyle": [
+        0.12,
+        0.65,
+        1
+      ]
+    }
+  },
+  "voidScale": 1.6036394457942837
+}

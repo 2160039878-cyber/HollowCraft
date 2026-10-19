@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "package": "dev.hollowcraft.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AbstractArrowMixin",
+    "BlockCollisionsMixin",
+    "BlockStateBaseMixin",
+    "EntityFluidInteractionMixin",
+    "EntityPickMixin",
+    "EntitySwimMixin",
+    "FallingBlockMixin",
+    "FlowingFluidMixin",
+    "GuestMovementMixin",
+    "ItemMixin",
+    "MinecraftServerFlightMixin",
+    "PlayerEdgeMixin",
+    "PlayerHealthMixin",
+    "PressurePlateMixin",
+    "PrimedTntMixin",
+    "ProjectileMixin",
+    "ProjectileUtilMixin",
+    "ServerExplosionMixin",
+    "ServerPlayerMixin",
+    "SmithingMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

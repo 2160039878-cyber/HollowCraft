@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>HollowCraft</AssemblyName>
+    <RootNamespace>HollowCraft</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <Version>0.1.0</Version>
+    <GameManagedDir Condition="'$(GameManagedDir)' == ''">$(HOLLOWCRAFT_GAME_MANAGED)</GameManagedDir>
+    <ModApiDir Condition="'$(ModApiDir)' == ''">$(GameManagedDir)</ModApiDir>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <Target Name="ValidateLocalResources" BeforeTargets="PrepareForBuild">
+    <Error Condition="'$(GameManagedDir)' == ''" Text="Set GameManagedDir to your isolated Hollow Knight Managed directory with Modding API 78 installed." />
+    <Error Condition="!Exists('$(MSBuildThisFileDirectory)..\assets\steve\steve.png')" Text="Import local textures with tools/Import-LocalAssets.ps1 before building. Game textures are not distributed with the source." />
+    <Error Condition="!Exists('$(MSBuildThisFileDirectory)..\assets\steve\void-hand-06.png') Or !Exists('$(MSBuildThisFileDirectory)..\assets\steve\void-hand-07.png') Or !Exists('$(MSBuildThisFileDirectory)..\assets\steve\void-hand-08.png') Or !Exists('$(MSBuildThisFileDirectory)..\assets\steve\void-hand-09.png') Or !Exists('$(MSBuildThisFileDirectory)..\assets\steve\void-hand-10.png')" Text="Import the five locally prepared Void Hand effect plates before building." />
+  </Target>
+  <ItemGroup>
+    <EmbeddedResource Include="..\assets\steve\model.json" LogicalName="HollowCraft.Steve.model.json" />
+    <EmbeddedResource Include="..\assets\steve\poses.json" LogicalName="HollowCraft.Steve.poses.json" />
+    <EmbeddedResource Include="..\assets\steve\dream-geometry.json" LogicalName="HollowCraft.Steve.dream-geometry.json" />
+    <EmbeddedResource Include="..\assets\steve\radiance-geometry.json" LogicalName="HollowCraft.Steve.radiance-geometry.json" />
+    <EmbeddedResource Include="..\assets\steve\void-hand-geometry.json" LogicalName="HollowCraft.Steve.void-hand-geometry.json" />
+    <EmbeddedResource Include="..\assets\steve\void-hand-*.png" LogicalName="HollowCraft.Steve.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\assets\steve\steve.png" LogicalName="HollowCraft.Steve.steve.png" />
+    <Reference Include="Assembly-CSharp"><HintPath>$(ModApiDir)\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MMHOOK_Assembly-CSharp"><HintPath>$(ModApiDir)\MMHOOK_Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MonoMod.RuntimeDetour"><HintPath>$(ModApiDir)\MonoMod.RuntimeDetour.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="MonoMod.Utils"><HintPath>$(ModApiDir)\MonoMod.Utils.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(GameManagedDir)\Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="TeamCherry.TK2D"><HintPath>$(GameManagedDir)\TeamCherry.TK2D.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="TeamCherry.Cinematics"><HintPath>$(GameManagedDir)\TeamCherry.Cinematics.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="PlayMaker"><HintPath>$(GameManagedDir)\PlayMaker.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(GameManagedDir)\Assembly-CSharp-firstpass.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.InputSystem"><HintPath>$(GameManagedDir)\Unity.InputSystem.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(GameManagedDir)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameManagedDir)\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameManagedDir)\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>$(GameManagedDir)\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.Physics2DModule"><HintPath>$(GameManagedDir)\UnityEngine.Physics2DModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameManagedDir)\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(GameManagedDir)\UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(GameManagedDir)\UnityEngine.ImageConversionModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule"><HintPath>$(GameManagedDir)\UnityEngine.ScreenCaptureModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.VideoModule"><HintPath>$(GameManagedDir)\UnityEngine.VideoModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>$(GameManagedDir)\UnityEngine.AudioModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule"><HintPath>$(GameManagedDir)\UnityEngine.UnityWebRequestModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule"><HintPath>$(GameManagedDir)\UnityEngine.UnityWebRequestAudioModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

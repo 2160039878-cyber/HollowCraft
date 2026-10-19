@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hollowcraft",
+  "version": "${version}",
+  "name": "HollowCraft",
+  "description": "Local side-view Minecraft sandbox and combat bridge for Hollow Knight.",
+  "authors": ["HollowCraft contributors", "RepoCraft contributors", "chasmlol (SkyCraft origin)"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["dev.hollowcraft.HollowCraft"],
+    "client": ["dev.hollowcraft.client.HollowCraftClient"]
+  },
+  "mixins": [
+    "hollowcraft.mixins.json",
+    { "config": "hollowcraft.client.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

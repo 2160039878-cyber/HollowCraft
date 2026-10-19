@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "project": "RepoCraft",
+      "license_type": "MIT",
+      "file": "LICENSE",
+      "sha256": "4bd7791c6bbc8a5b74b27cd47b276a50f474739eda905ccc20325a656db94470"
+    },
+    {
+      "project": "RepoCraft",
+      "license_type": "Third-party notices; components list MIT, LGPL-2.1, GPL-3.0, Apache-2.0",
+      "file": "THIRD-PARTY-NOTICES.md",
+      "sha256": "e171b1e86cfda3bd087a6a502612d8562daee32989b5893edf1db91597a21387"
+    },
+    {
+      "project": "HK-Modding-API",
+      "license_type": "MIT",
+      "source_url": "https://raw.githubusercontent.com/SFGrenade/api/468f579f25e63da2188f39fe5ece15c25d2854d7/LICENSE",
+      "commit": "468f579f25e63da2188f39fe5ece15c25d2854d7",
+      "file": "LICENSE",
+      "sha256": "a938ef26be8e0d082eb60ddb1fde4305e0841b300d9540f1239584f271c3165a"
+    },
+    {
+      "project": "Fabric Loader 0.19.5",
+      "license_type": "Apache-2.0",
+      "source_jar_sha256": "93044e4dd46de5d8136701292f05e868da096d2c9fddb4793e4fdbcc63efc695",
+      "zip_entry": "LICENSE_fabric-loader",
+      "file": "LICENSE_fabric-loader",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "project": "Fabric API 0.161.0+26.3",
+      "license_type": "Apache-2.0",
+      "source_jar_sha256": "86f16178a3cecc887a85a4cfe9a79d92fa7341d8f39b5951a4d6ad800ab657a6",
+      "zip_entry": "LICENSE-fabric-api",
+      "file": "LICENSE-fabric-api",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "project": "HalfCraft",
+      "license_type": "MIT",
+      "source_url": "https://raw.githubusercontent.com/whiskydumb/halfcraft/24141e9c4ac22440805cd947efa760e2c69a1247/LICENSE",
+      "commit": "24141e9c4ac22440805cd947efa760e2c69a1247",
+      "file": "LICENSE",
+      "sha256": "172d24d253aba793d7da35f3eb81e190c4e19e3711c4f183af7d150b86cb16f8",
+      "scope_note": "LICENSE states source/sdk/halfcraft-sdk.patch is under the Source 1 SDK License; see upstream THIRD-PARTY-NOTICES.md."
+    },
+    {
+      "project": "Gradle Wrapper",
+      "license_type": "Apache-2.0",
+      "file": "Gradle/LICENSE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    }
+  ]
+}
